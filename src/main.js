@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import App from './App.vue'
+// import { bootstrap } from 'bootstrap'
+import BlogHead from './BlogHead.vue'
 
-createApp(App).mount('#app')
+createApp(BlogHead).mount('#blog_head')
+
